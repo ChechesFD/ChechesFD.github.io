@@ -1,0 +1,204 @@
+@import url('normalize.css');
+
+/*-- Estilos Generales--*/
+body {
+	background: #161b1c1;
+	height: auto;
+	position: relative;
+}
+
+/*-- Header --*/
+header {
+	width: 100%;
+	float: left;
+}
+
+.inicio {
+	width: 100%;
+	position: relative;
+}
+
+header #inicio img {
+	display: block;
+	width: 100%;
+	}
+
+#subheader {
+	position: absolute;
+	top: 0%;
+	right: 9%;
+	bottom: 20%;
+	left: 0%;
+	}
+	
+/**-- Menu --**/
+header #subheader nav {
+	float: left;
+	width: 100%;
+	margin-top: 3.5%;
+	text-align: right;
+}
+
+header #subheader nav ul{
+	padding-top: 1%;
+	height: 1%;
+}
+
+header #subheader nav ul li {
+	margin-bottom: 3%;
+	list-style-type: none;
+}
+
+header #subheader nav ul li a {
+	color: #de3c21; 
+	font-size: 1.2em; 
+	padding: 1%; 
+	border-radius: 2px; 
+	-moz-border-radius: 2px; 
+	-webkit-border-radius: 2px;}
+
+header #subheader nav ul li a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+header #subheader .whatsapp {
+	background:url(../img/);
+	margin-bottom: 2%;
+}
+
+header #redes .instagram {
+	background:url(../img/);
+	margin-bottom: 4%;
+}
+header #redes .facebook {
+	background:url(../img/);
+}
+
+header #redes .ingles {
+	background:url(../img/);
+	background-color: #de3c21;
+}
+
+
+header #redes > div:hover {
+	opacity: 1;
+}
+	
+
+/**-- Body Section Menu --**/
+
+.menu {
+	width: 100%;
+	height:	fit-content;
+	position: relative;
+}
+
+#menu {
+	width: 100%;
+	height: fit-content;
+}
+
+body #menu img {
+	display: block;
+}
+
+#submenu {
+	position: absolute;
+	width: 90%;
+	bottom: 0%;
+	text-align: right;
+
+	}
+
+header #submenu nav {
+		float: left;
+		width: 100%;
+		height: 100%;
+		margin-top: 3.5%;
+		margin-right: 0%;
+		text-align: right;
+}
+	
+header #submenu nav ul{
+		padding-top: 1%;
+		width: 100%;
+}
+	
+header #submenu nav ul li {
+		margin-bottom: 0%;
+		list-style-type: none;
+		margin-block-end: 0%;
+}
+	
+header #submenu nav ul li a {
+	color: #ff0; 
+	font-size: 1.2em; 
+	padding: 1%; 
+	border-radius: 2px; 
+	-moz-border-radius: 2px; 
+	-webkit-border-radius: 2px;
+}
+	
+header #submenu nav ul li a:hover {
+		color: #ff0;
+		text-decoration: none;
+}
+	
+header #submenu .idioma {
+		color: #ff0;
+		background-color: #de3c21;
+		margin-bottom: 2%;
+}
+	
+
+/**-- Footer --**/
+footer {
+	width: 100%;
+	float: left;
+}
+
+.footer {
+	width: 100%;
+	position: relative;
+}
+
+footer #footer img {
+	display: block;
+	width: 100%;
+}
+
+#subfooter {
+	position: fixed;
+	width: 100%;
+	bottom: 0%;
+	right: 17%;
+	text-align: left;
+}
+	
+/**-- Mapa --**/
+footer #subfooter nav {
+	float: left;
+	width: 100%;
+	margin-bottom: 3.5%;
+	text-align: center;
+}
+
+footer #subfooter nav ul li {
+	list-style-type: none;
+}
+
+
+footer #subfooter nav ul li a {
+	color: #de3c21; 
+	font-size: 1.2em; 
+	padding: 1%; 
+	border-radius: 2px; 
+	-moz-border-radius: 2px; 
+	-webkit-border-radius: 2px;}
+
+footer #subfooter nav ul li a:hover {
+	color: #fff;
+/**	background-color: #de3c21; **/
+	text-decoration: none;
+}
